@@ -1,16 +1,39 @@
-## Micronaut 3.9.3 Documentation
+## Exoplanet API Sercive
+Exoplanet API Sercive exposes APIs to fetch exoplanet information. 
 
-- [User Guide](https://docs.micronaut.io/3.9.3/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.9.3/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.9.3/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+### Pre-Requisites
+- Git
+- OpenJDK 16 Hotspot
+- Docker
+- Gradle 7.2.1
+
+## Cloning the project
+Github Url: https://github.com/rahul-sk/exoplanet.git
+
+```
+ git clone https://github.com/rahul-sk/exoplanet.git
+```
+---
+## Build and Run the application
+
+```shell
+./gradlew build
+
+MICRONAUT_ENVIRONMENTS=local ./gradlew run
+  ```
+
 ---
 
-- [Micronaut Gradle Plugin documentation](https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/)
-- [GraalVM Gradle Plugin documentation](https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html)
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-## Feature http-client documentation
+### Run the application in a docker container
+From the root directory of the project
+Run the following :
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+```shell
+docker build -t exoplanet:latest .
+docker run -p 8088:8080 exoplanet
+```
+## Executing Unit Tests
 
-
+```
+ ./gradlew test
+```
