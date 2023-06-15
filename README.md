@@ -1,6 +1,11 @@
 ## Exoplanet API Sercive
 Exoplanet API Sercive exposes APIs to fetch exoplanet information. 
 
+### Supported APIs
+- /api/v1/getorphancount       : To fetch the number of orphan planets (no star).
+- /api/v1/gethotteststarplanet : The name (planet identifier) of the planet orbiting the hottest star.
+- /api/v1/getplanettimeline    : A timeline of the number of planets discovered per year grouped by size.
+
 ### Pre-Requisites
 - Git
 - OpenJDK 16 Hotspot
