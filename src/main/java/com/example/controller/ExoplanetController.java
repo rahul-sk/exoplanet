@@ -14,6 +14,11 @@ import jakarta.inject.Inject;
 
 import java.util.Map;
 
+/**
+ * Exoplanet controller, used for internal communication with MS
+ *
+ * @author <a href="mailto:koimatturrahul704@gmail.com">Rahul S Koimattur</a>
+ */
 @Controller(URI.BASE_URI)
 public class ExoplanetController {
 
