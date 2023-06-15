@@ -1,4 +1,4 @@
-## Exoplanet API Sercive
+## Exoplanet API Service
 Exoplanet API Sercive exposes APIs to fetch exoplanet information. 
 
 ### Supported APIs
@@ -42,3 +42,14 @@ docker run -p 8088:8080 exoplanet
 ```
  ./gradlew test
 ```
+
+## Screenshots
+- /api/v1/getorphancount
+  <img width="851" alt="Screenshot 2023-06-15 at 12 40 12 PM" src="https://github.com/kponnima/exercise-exoplanet-catalogue/assets/37139616/516dd7b5-b0cb-491a-b053-83af7f46cffe">
+
+- /api/v1/gethotteststarplanet
+  <img width="851" alt="Screenshot 2023-06-15 at 12 44 05 PM" src="https://github.com/kponnima/exercise-exoplanet-catalogue/assets/37139616/0c51321b-6078-4ce9-823e-04705da6194b">
+
+- /api/v1/getplanettimeline
+  <img width="851" alt="Screenshot 2023-06-15 at 12 46 29 PM" src="https://github.com/kponnima/exercise-exoplanet-catalogue/assets/37139616/18690c10-0bc5-465f-af92-c61cf697e093">
+  
